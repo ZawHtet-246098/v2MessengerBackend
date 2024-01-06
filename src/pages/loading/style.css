@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #E4E4E7; */
+  background-color: black;
+
+  z-index: 100;
+}
+
+.wrapper > img {
+  width: 30px;
+  height: 30px;
+  animation: changeScale 3s linear infinite;
+}
+
+@keyframes changeScale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(5);
+  }
+}

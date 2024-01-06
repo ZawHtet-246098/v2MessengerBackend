@@ -1,0 +1,44 @@
+ .scrollParent {
+   scrollbar-color: #6969dd #e0e0e0;
+ }
+
+ .scrollParent::-webkit-scrollbar {
+   width: 2px;
+ }
+
+ .scrollParent::-webkit-scrollbar-track {
+   background-color: darkgray;
+ }
+
+ .scrollParent::-webkit-scrollbar-thumb {
+   box-shadow: inset 0 0 200px rgba(252, 5, 5, 0.3);
+ }
+
+
+
+ .message {
+   display: flex;
+   align-items: center;
+ }
+
+ .content {
+   max-width: 40%;
+   overflow-wrap: break-word;
+   padding: 1rem;
+   font-size: 1.1rem;
+   border-radius: 1rem;
+   color: #000000;
+   background-color: #4f04ff21;
+   margin: .2rem 0;
+
+ }
+
+ .sended {
+   justify-content: flex-end;
+
+ }
+
+ .recieved {
+   justify-content: flex-start;
+
+ }
